@@ -27,7 +27,6 @@ Front-End-Develop-Guide 前端开发指南|https://github.com/Front-End-Develope
 --- | --- 
 前端入门教程|http://www.cnblogs.com/jikey/p/3613082.html
 瘳雪峰的Javascript教程|http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000
-jQuery基础教程|http://www.imooc.com/view/11
 前端工程师必备的PS技能——切图篇|http://www.imooc.com/view/506
 结合个人经历总结的前端入门方法|https://github.com/qiu-deqing/FE-learning
 
@@ -53,11 +52,6 @@ lyn - 慕课系列|http://www.imooc.com/space/teacher/id/104593
 碧仔 - Hello，移动WEB|http://www.imooc.com/view/494
 
 
-周报类| 地址
---- | --- 
-平安科技移动开发二队技术周报|https://github.com/PaicHyperionDev/MobileDevWeekly
-
-
 开发中心| 地址
 --- | --- 
 mozilla js参考|https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
@@ -78,16 +72,17 @@ javascripting|http://www.javascripting.com
 综合API| 地址
 --- | ---    
 runoob.com-包含各种API集合|http://www.runoob.com
+前端俱乐部|http://f2er.club/
 开源中国在线API文档合集|http://tool.oschina.net/apidocs
-devdocs|http://devdocs.io 英文综合API网站
+devdocs 英文综合API|http://devdocs.io 
 
 
 jQuery| 地址
 --- | ---    
 jQuery API 中文文档|http://www.jquery123.com
 hemin 在线版|http://hemin.cn/jq
-css88 jq api|http://www.css88.com/jqapi-1.9/on
-css88 jqui api|http://www.css88.com/jquery-ui-api
+jq api|http://www.css88.com/jqapi-1.9/on
+jqui api|http://www.css88.com/jquery-ui-api
 学习jquery|http://learn.jquery.com
 jquery 源码查找|http://james.padolsey.com/jquery
 
@@ -171,25 +166,6 @@ AngularJS在线教程|http://each.sinaapp.com/angular
 angular学习笔记|http://www.zouyesheng.com/angular.html
 
 
-React| 地址
---- | ---    
-react.js 中文论坛|http://www.react-china.org
-react.js 官方网址|https://facebook.github.io/react/index.html
-react.js 官方文档|https://facebook.github.io/react/docs/getting-started.html
-react.js material UI|http://material-ui.com/#
-react.js TouchstoneJS UI|http://touchstonejs.io
-react.js amazeui UI|http://amazeui.org/react
-React 入门实例教程 - 阮一峰|http://www.ruanyifeng.com/blog/2015/03/react.html
-React Native 中文版|http://wiki.jikexueyuan.com/project/react-native
-Webpack 和 React 小书 - 前端乱炖|http://www.html-js.com/article/Fakefish%203053
-Webpack 和 React 小书 - gitbook|https://fakefish.github.io/react-webpack-cookbook
-webpack|https://github.com/webpack/webpack
-Webpack，101入门体验|http://html-js.com/article/3009
-webpack入门教程|http://html-js.com/article/3113
-基于webpack搭建前端工程解决方案探索|http://segmentfault.com/a/1190000003499526
-React原创实战视频教程|http://www.piliyu.com
-
-
 移动端API| 地址
 --- | --- 
 99移动端知识集合|https://github.com/jtyjty99999/mobileTech
@@ -214,51 +190,9 @@ jqmobile 手册|http://app-framework-software.intel.com/api.php
 
 avalon| 地址
 --- | --- 
-avalonjs|http://avalonjs.github.io
+avalonjs|http://avalonjs.coding.me/
 Avalon新一代UI库： OniUI|http://ued.qunar.com/oniui/index.html
 avalon.oniui-基于avalon的组件库|https://github.com/RubyLouvre/avalon.oniui
-|
-
-Requriejs| 地址
---- | --- 
-Javascript模块化编程（一）：模块的写法 |http://www.ruanyifeng.com/blog/2012/10/javascript_module.html
-Javascript模块化编程（二）：AMD规范|http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html
-Javascript模块化编程（三）：require.js的用法|http://www.ruanyifeng.com/blog/2012/11/require_js.html
-RequireJS入门（一）|http://www.cnblogs.com/snandy/archive/2012/05/22/2513652.html
-RequireJS入门（二）|http://www.cnblogs.com/snandy/archive/2012/05/23/2513712.html
-RequireJS进阶（三）|http://www.cnblogs.com/snandy/archive/2012/06/08/2538001.html
-requrie源码学习|http://www.cnblogs.com/yexiaochai/p/3632580.html 
-requrie 入门指南|http://www.oschina.net/translate/getting-started-with-the-requirejs-library 
-requrieJS 学习笔记|http://www.cnblogs.com/yexiaochai/p/3214926.html 
-requriejs 其一 |http://cyj.me/why-seajs/requirejs/ 
-require backbone结合|http://www.cnblogs.com/yexiaochai/p/3221081.html 
-
-
-Seajs| 地址
---- | --- 
-seajs|http://seajs.org
-seajs 中文手册|http://cyj.me/why-seajs/zh
-
-
-Less,sass| 地址
---- | --- 
-sass|http://www.w3cplus.com/sassguide
-sass教程-sass中国|http://www.sass.hk
-Sass 中文文档|http://sass.bootcss.com
-less|http://less.bootcss.com
-
-
-Markdown| 地址
---- | --- 
-Markdown 语法说明 (简体中文版|http://wowubuntu.com/markdown
-markdown入门参考|https://github.com/LearnShare/Learning-Markdown/blob/master/README.md
-gitbook|https://www.gitbook.com 国外的在线markdown可编辑成书
-mdeditor|https://www.zybuluo.com/mdeditor  一款国内的在线markdown编辑器
-stackedit|https://stackedit.io 国外的在线markdown编辑器，功能强大，同步云盘
-mditor|http://bh-lay.github.io/mditor 一款轻量级的markdown编辑器
-lepture-editor|https://github.com/lepture/editor
-markdown-editor|https://github.com/jbt/markdown-editor
-
 
 D3| 地址
 --- | --- 
@@ -334,15 +268,6 @@ ECharts 百度的图表软件|http://echarts.baidu.com/
 svg 地图|http://jvectormap.com
 
 
-vue| 地址
---- | --- 
-Vue|http://cn.vuejs.org
-Vue 论坛|http://forum.vuejs.org
-Vue 入门指南|http://www.cnblogs.com/aaronjs/p/3660102.html
-Vue 的一些资源索引|http://segmentfault.com/a/1190000000411057
-awesome-vue|https://github.com/vuejs/awesome-vue
-
-
 正则| 地址
 --- | --- 
 JS正则表达式元字符|http://segmentfault.com/a/1190000002471140
@@ -352,11 +277,6 @@ ruanyifeng - RegExp对象|http://javascript.ruanyifeng.com/stdlib/regexp.html
 小胡子哥 - 进阶正则表达式|http://div.io/topic/764?page=1
 is.js|https://github.com/Cedriking/is.js/blob/master/is.js
 正则在线测试|http://regexper.com
-
-
-ionic| 地址
---- | --- 
-ionic|https://github.com/ychow/ionic-guide
 
 
 其它| 地址
@@ -387,18 +307,6 @@ JavaScript 风格指南/编码规范（Airbnb公司版）|http://blog.jobbole.co
 网易前端开发规范|http://nec.netease.com/standard
 css模块|http://www.75team.com/archives/1049
 前端规范资源列表|https://github.com/ecomfe/spec
-
-
-PHP| 地址
---- | --- 
-最流行的PHP 代码规范|http://segmentfault.com/a/1190000000443795
-最流行的PHP 代码规范|https://github.com/hfcorriez/fig-standards/blob/zh_CN/%E6%8E%A5%E5%8F%97/PSR-2-coding-style-guide.md
-
-
-Android| 地址
---- | --- 
-【敏捷开发】Android团队开发规范|http://www.cnblogs.com/lcw/p/3619181.html
-Android 开发规范与应用|http://www.jianshu.com/p/4390f4fe19b3
 
 
 各大公司开源项目| 地址
@@ -468,17 +376,6 @@ myfocus-官方演示站|http://www.chhua.com/myfocus
 SuperSlidev2.1 -- 大话主席|http://www.superslide2.com
 soChange|http://www.bujichong.com/sojs/soChange/index.html
 
-
-Ext, EasyUI, J-UI 及其它各种UI方案 | 地址
---- | ---
-extjs|https://www.sencha.com/products/extjs
-ext4英文api|http://docs.sencha.com/extjs/4.0.7
-ext4中文api|http://extjs-doc-cn.github.io/ext4api
-
-
-EasyUI | 地址
---- | --- 
-jquery easyui 未压缩源代码|http://jquery-easyui.googlecode.com/svn/trunk/src
 
 
 J-UI | 地址
@@ -569,36 +466,6 @@ sugarjs|http://sugarjs.com/api/Date
 --- | --- 
 前端工具大全|http://www.awesomes.cn
 什么是前端工程化|https://github.com/fouber/blog/issues/10?from=timeline&isappinstalled=0#
-
-
-Gulp  | 地址
---- | ---  
-Gulp官网|http://gulpjs.com
-Gulp中文网|http://www.gulpjs.com.cn
-gulp资料收集|https://github.com/Platform-CUF/use-gulp
-Gulp：任务自动管理工具 - ruanyifeng|http://javascript.ruanyifeng.com/tool/gulp.html
-Gulp插件|http://gulpjs.com/plugins
-Gulp不完全入门教程|http://www.ido321.com/1622.html
-为什么使用gulp?|https://github.com/hjzheng/CUF_meeting_knowledge_share/issues/33
-Gulp安装及配合组件构建前端开发一体化|http://www.dbpoo.com/getting-started-with-gulp
-Gulp 入门指南|https://github.com/nimojs/gulp-book
-Gulp 入门指南 - nimojs|https://github.com/nimojs/blog/issues/19
-Gulp入门教程|http://markpop.github.io/2014/09/17/Gulp%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B
-Gulp in Action|http://www.imooc.com/video/5692
-Gulp开发教程（翻译）|http://www.w3ctech.com/topic/134
-前端构建工具gulpjs的使用介绍及技巧|http://www.cnblogs.com/2050/p/4198792.html
-
-
-Grunt  | 地址
---- | ---  
-gruntjs|http://gruntjs.com
-Grunt中文网|http://www.gruntjs.net
-
-
-Fis  | 地址
---- | ---  
-fis 官网|http://fex-team.github.io/fis-site/index.html
-fis|http://fis.baidu.com
 
 
 pc图轮  | 地址
@@ -708,30 +575,6 @@ Html5 VideoPlayer|https://github.com/zmmbreeze/DeadSimpleVideoPlayer
 粒子动画  | 地址
 --- | ---  
 Proton 烟花|http://a-jie.github.io/Proton/#example
-
-
-Nodejs  | 地址
---- | ---  
-nodejs 篇幅比较巨大|http://liuqing.pw
-Node.js 包教不包会|https://github.com/alsotang/node-lessons
-篇幅比较少|http://www.rainweb.cn/article/category/Nodejs
-node express 入门教程|http://www.w3cfuns.com/article-5598538-1-1.html
-nodejs定时任务|http://my.oschina.net/u/568264/blog/193773
-一个nodejs博客|http://60sky.com
-【NodeJS 学习笔记04】新闻发布系统|http://www.cnblogs.com/yexiaochai/p/3536547.html
-过年7天乐，学nodejs 也快乐|http://www.cnblogs.com/qqloving/p/3541099.html
-七天学会NodeJS|https://github.com/nqdeng/7-days-nodejs
-Nodejs学习笔记（二）--- 事件模块|http://www.cnblogs.com/zhongweiv/p/nodejs_events.html
-nodejs入门|http://www.cnblogs.com/liusuqi/p/3735491.html
-angularjs nodejs|https://github.com/zensh/jsgen
-从零开始nodejs系列文章|http://blog.fens.me/series-nodejs
-理解nodejs|http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb
-nodejs事件轮询|http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop
-node入门|http://www.nodebeginner.org/index-zh-cn.html
-nodejs cms|http://ourjs.com/detail/53e1f281c5910a9806000001
-Node初学者入门，一本全面的NodeJS教程|http://ourjs.com/detail/529ca5950cb6498814000005
-NodeJS的代码调试和性能调优|http://www.barretlee.com/blog/2015/10/07/debug-nodejs-in-command-line
-
 
 常规优化|地址
 --- | ---
@@ -892,19 +735,6 @@ BAT及各大互联网公司2014前端笔试面试题：JavaScript篇|http://blog
 前端开发面试题|https://github.com/markyun/My-blog/blob/master/Front-end-Developer-Questions/Questions-and-Answers/README.md
 牛客网-笔试面经|http://www.nowcoder.com/discuss?type=2
 
-
-iconfont|地址
---- | ---
-中文字体|http://www.zhihu.com/question/21253343
-淘宝字库|http://iconfont.cn
-字体|http://mux.alimama.com/fonts
-制作教程|http://iconfont.cn/help/platform.html
-zhangxinxu-icommon|http://www.zhangxinxu.com/wordpress/?s=icomoon
-icommon|https://icomoon.io/app
-用字体在网页中画ICON图标(推荐教程|http://imooc.com/learn/243
-字体压缩工具|http://font-spider.org
-
-
 前端开发工具|地址
 --- | ---
 IntelliJ IDEA 简体中文专题教程|https://github.com/judasn/IntelliJ-IDEA-Tutorial
@@ -1058,26 +888,3 @@ GitHub秘籍|https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.
 使用git和github进行协同开发流程|http://livoras.com/post/28
 动画方式练习git|http://onlywei.github.io/explain-git-with-d3
 
-优秀JavaScript项目 | 地址
---- | --- 
-Angular和Webpack种子文件|https://github.com/AngularClass/angular2-webpack-starter
-Fis3面向前端的工程构建系统|https://github.com/fex-team/fis3
-Fis3 DEMO|https://github.com/fex-team/fis3-demo
-前端JQuery系列:源码剖析|https://github.com/JsAaron/jQuery
-avalon框架|https://github.com/RubyLouvre/avalon
-Microsoft ChakraCore 微软的Chakra引擎|https://github.com/Microsoft/ChakraCore
-Quintus HTML游戏引擎|https://github.com/cykod/Quintus
-一个用node.js搭建的有趣博客|https://github.com/STRML/strml.net
-Web前端助手--FeHelper（Chrome扩展）|https://github.com/zxlie/FeHelper
-百度前端技术学院|https://github.com/baidu-ife/ife
-Cheerio（node.js中的jQuery）|https://github.com/cheeriojs/cheerio
-nodejs的一个聊天软件 类似微信|https://github.com/BryanYang/freechat
-使用html5和node.js构建的网易云音乐|https://github.com/stkevintan/Cube
-babel ES6转换为ES5|https://github.com/babel/babel
-一个JS富文本编辑器|https://github.com/fex-team/ueditor
-一个JS脑图可视化工具|https://github.com/fex-team/kityminder-core
-一个JS写的Flappy Bird Game|https://github.com/ellisonleao/clumsy-bird
-一个JS写的GBA模拟器|https://github.com/taisel/IodineGBA
-SegmentFault写的Markdown解析器|https://github.com/SegmentFault/HyperDown.js
-基于node.js的Ghost博客|https://github.com/TryGhost/Ghost
-学习react的demos|https://github.com/ruanyf/react-demos
