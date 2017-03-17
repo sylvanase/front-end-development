@@ -140,5 +140,13 @@ mditor|http://bh-lay.github.io/mditor 一款轻量级的markdown编辑器
 lepture-editor|https://github.com/lepture/editor
 markdown-editor|https://github.com/jbt/markdown-editor
 
+Angularjs| 地址
+--- | ---    
+angularjs中文社区|http://angularjs.cn
+一些扩展Angular UI组件|https://github.com/angular-ui
+angularjs 开发指南|http://www.angularjs.cn/T008
+AngularJS在线教程|http://each.sinaapp.com/angular
+angular学习笔记|http://www.zouyesheng.com/angular.html
+
 
 

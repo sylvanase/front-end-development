@@ -1,10 +1,17 @@
-收集的代表性项目和demo
+收集的项目和demo
 - [vue+webpack](http://div.io/topic/1796)
 - [react入门-讲解](http://www.ruanyifeng.com/blog/2015/03/react.html)
 - [react入门-源码](https://github.com/ruanyf/react-demos)
 - [基于vue2 + vuex的饿了么webApp](https://github.com/bailicangdu/vue2-elm)
 - [使用Flexible实现手淘H5页面的终端适配](https://github.com/amfe/article/issues/17)
 - [Angular和Webpack种子文件](https://github.com/AngularClass/angular2-webpack-starter)
+- [alloyteam-github](http://alloyteam.github.io)
+- [奇舞团开源项目](http://75team.github.io/)
+- [模拟键盘](http://mottie.github.io/Keyboard)
+- [拼音](https://github.com/hotoo/pinyin)
+- [中国个人身份证号验证](https://github.com/mc-zone/IDValidator)
+- [好玩儿的动效作品](https://github.com/hongru/hongru.github.com)
+- [网页ppt](https://github.com/ksky521/nodePPT)
 - [Fis3面向前端的工程构建系统](https://github.com/fex-team/fis3)
 - [Fis3 DEMO](https://github.com/fex-team/fis3-demo)
 - [前端JQuery系列：入门教程 | 源码剖析 | 框架设计 | 慕课网教程](https://github.com/JsAaron/jQuery)
