@@ -4,8 +4,9 @@
 - [layer](http://layer.layui.com)
 - [基于 Vue.js 的高质量 UI 组件库](https://www.iviewui.com)
 - [蚂蚁金服 Ant Design React ](https://ant.design/index-cn)
-- [阿里巴巴图标库](http://iconfont.cn/)
 - [googleMaps 中文api](https://developers.google.com/maps/?hl=zh-cn)
+- [yeoman](http://yeoman.io/)
+- [淘宝SUI](http://m.sui.taobao.org)
 
 React| 地址
 --- | ---    

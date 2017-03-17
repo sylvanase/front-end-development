@@ -1,91 +1,42 @@
 综合类 | 地址
 --- | --- 
-前端知识体系|http://www.cnblogs.com/sb19871023/p/3894452.html
-前端知识结构|https://github.com/JacksonTian/fks
-Web前端开发大系概览|https://github.com/unruledboy/WebFrontEndStack
-Web前端开发大系概览-中文版|http://www.cnblogs.com/unruledboy/p/WebFrontEndStack.html
-Web Front-end Stack v2.2|https://raw.githubusercontent.com/unruledboy/WebFrontEndStack/master/Web%20Front%20End%20Stack.png
-免费的编程中文书籍索引|https://github.com/justjavac/free-programming-books-zh_CN
-前端书籍|https://github.com/dypsilon/frontend-dev-bookmarks
-前端免费书籍大全|https://github.com/vhf/free-programming-books
-前端知识体系|http://www.cnblogs.com/sb19871023/p/3894452.html
-免费的编程中文书籍索引|https://github.com/justjavac/free-programming-books-zh_CN
-智能社 - 精通JavaScript开发|http://study.163.com/course/introduction/224014.htm
-重新介绍 JavaScript（JS 教程）|https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript
-麻省理工学院公开课：计算机科学及编程导论|http://v.163.com/special/opencourse/bianchengdaolun.html
-JavaScript中的this陷阱的最全收集--没有之一|http://segmentfault.com/a/1190000002640298
-JS函数式编程指南|https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch1.html
-JavaScript Promise迷你书（中文版）|http://liubin.github.io/promises-book
+w3s|http://www.w3school.com.cn
+菜鸟|http://www.runoob.com
+大前端|http://www.daqianduan.com
+前端网|http://www.w3cfuns.com
+掘金|http://gold.xitu.io
+helloweba|http://www.helloweba.com
+伯乐在线|http://www.jobbole.com
+前端资源汇|http://div.io/pro/index
+jQueryfuns|http://www.jqueryfuns.com
+jq22|http://www.jq22.com
+jquery之家|http://www.htmleaf.com
+慕课网|http://www.imooc.com
+freecodecamp|https://freecodecamp.cn/home
+前端俱乐部|http://f2er.club/
 腾讯移动Web前端知识库|https://github.com/AlloyTeam/Mars
 Front-End-Develop-Guide 前端开发指南|https://github.com/Front-End-Developers-Hunan/Front-End-Develop-Guide
-前端开发笔记本|https://li-xinyang.gitbooks.io/frontend-notebook/content
-大前端工具集 - 聂微东|https://github.com/nieweidong/fetool
-前端开发者手册|https://dwqs.gitbooks.io/frontenddevhandbook/content
-
-
-入门类 | 地址
---- | --- 
-前端入门教程|http://www.cnblogs.com/jikey/p/3613082.html
-瘳雪峰的Javascript教程|http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000
-前端工程师必备的PS技能——切图篇|http://www.imooc.com/view/506
-结合个人经历总结的前端入门方法|https://github.com/qiu-deqing/FE-learning
-
-
-效果类 | 地址
---- | --- 
-弹出层|http://www.imooc.com/learn/58
-焦点图轮播特效|http://www.imooc.com/learn/18
-    
-
-工具类| 地址
---- | --- 
-css sprite 雪碧图制作|http://www.imooc.com/learn/93
-版本控制入门 – 搬进 Github|http://www.imooc.com/learn/390
-Grunt-beginner前端自动化工具|http://www.imooc.com/learn/30
-
-
-慕课专题| 地址
---- | --- 
-张鑫旭 - 慕课系列|http://www.imooc.com/space/teacher/id/197450
-lyn - 慕课系列|http://www.imooc.com/space/teacher/id/104593
-艾伦 - 慕课系列|http://www.imooc.com/space/teacher/id/290139
-碧仔 - Hello，移动WEB|http://www.imooc.com/view/494
-
-
-开发中心| 地址
---- | --- 
-mozilla js参考|https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
-chrome开发中心（chrome的内核已转向blink）|https://developer.chrome.com/extensions/api_index.html
-safari开发中心|https://developer.apple.com/library/safari/navigation
-microsoft js参考|https://msdn.microsoft.com/zh-cn/library/d1et7k7c(v=vs.94.aspx
-js秘密花园|http://sanshi.me/articles/JavaScript-Garden-CN/html/index.html
-js秘密花园|http://bonsaiden.github.io/JavaScript-Garden/zh
-w3help|http://www.w3help.org 综合Bug集合网站
-
-
-综合搜索| 地址
---- | --- 
-javascripting|http://www.javascripting.com
-各种流行库搜索|http://microjs.com
-
-
-综合API| 地址
---- | ---    
-runoob.com-包含各种API集合|http://www.runoob.com
-前端俱乐部|http://f2er.club/
 开源中国在线API文档合集|http://tool.oschina.net/apidocs
 devdocs 英文综合API|http://devdocs.io 
 
+前端大神 | 地址
+--- | --- 
+聂微东|https://github.com/nieweidong/fetool
+白树|http://peunzhang.cnblogs.com
+张鑫旭|http://www.zhangxinxu.com/wordpress/
+廖雪峰|http://www.liaoxuefeng.com
+阮一峰|http://www.ruanyifeng.com/blog/
 
-jQuery| 地址
---- | ---    
-jQuery API 中文文档|http://www.jquery123.com
-hemin 在线版|http://hemin.cn/jq
-jq api|http://www.css88.com/jqapi-1.9/on
-jqui api|http://www.css88.com/jquery-ui-api
-学习jquery|http://learn.jquery.com
-jquery 源码查找|http://james.padolsey.com/jquery
 
+
+工具| 地址
+--- | --- 
+开源中国|http://tool.oschina.net/
+json格式化|http://www.bejson.com/jsonviewernew/
+JSHint|http://jshint.com/
+颜色转换|http://www.atool.org/colorpicker.php
+codepen|http://codepen.io/pen/
+css速查|http://cssreference.io/
 
 Ecmascript| 地址
 --- | ---    
@@ -98,95 +49,31 @@ exploring-es6翻译后预览|http://es6-org.github.io/exploring-es6
 ECMA-262，第 5 版|http://yanhaijing.com/es5
 es5|http://es5.github.io
 
-
-Js template| 地址
---- | ---    
-template-chooser|http://garann.github.io/template-chooser
-artTemplate|https://github.com/aui/artTemplate
-tomdjs|https://github.com/aui/tmodjs/blob/master/README.md
-淘宝模板juicer模板|http://juicer.name/docs/docs_zh_cn.html
-Fxtpl v1.0 繁星前端模板引擎|http://koen301.github.io/fxtpl
-laytpl|http://laytpl.layui.com
-mozilla - nunjucks|https://github.com/mozilla/nunjucks
-Juicer|https://github.com/PaulGuo/Juicer
-dustjs|http://akdubya.github.io/dustjs
-etpl|http://ecomfe.github.io/etpl
-
-
-弹出层| 地址
---- | ---    
-artDialog 最新版|https://github.com/aui/artDialog
-artDialog 文档|http://aui.github.io/artDialog/doc/index.html
-google code 下载地址|https://code.google.com/p/artdialog/downloads/list
-贤心弹出层|http://layer.layui.com
-响应式用户交互组件库|https://github.com/bh-lay/UI
-sweetalert-有css3动画弹出层|http://t4t5.github.io/sweetalert
-
-
 CSS| 地址
 --- | ---    
-CSS 语法参考|http://tympanus.net/codrops/css_reference
 CSS3动画手册|http://isux.tencent.com/css3/index.html
-腾讯css3动画制作工具|http://isux.tencent.com/css3/tools.html
-志爷css小工具集合|http://linxz.github.io/tianyizone
-css3 js 移动大杂烩|http://www.note12.com/category/blog/2014-6-5/538fe0a9f786f1b7019a4dfb
+css小工具集合|http://linxz.github.io/tianyizone
 bouncejs 触摸库|http://bouncejs.com
 css3 按钮动画|http://fian.my.id/Waves
 animate.css|http://daneden.github.io/animate.css
-全局CSS的终结(狗带 [译]|http://www.alloyteam.com/2015/10/8536
-
 
 Angularjs| 地址
 --- | ---    
-Angular.js 的一些学习资源|https://github.com/dolymood/AngularLearning
 angularjs中文社区|http://angularjs.cn
-Angularjs源码学习|http://www.cnblogs.com/xuwenmin888/p/3739096.html
-Angularjs源码学习|http://www.ifeenan.com/?c=AngularJS
-angular对bootstrap的封装|http://angular-ui.github.io/bootstrap
-angularjs + nodejs|https://cnodejs.org/topic/51404e0f069911196d2e3923
-吕大豹 Angularjs|http://www.cnblogs.com/lvdabao/tag/AngularJs
-AngularJS 最佳实践|http://www.infoq.com/cn/news/2013/02/angular-web-app
-Angular的一些扩展指令|http://www.lovelucy.info/angularjs-best-practices.html
-Angular数据绑定原理|https://github.com/Pasvaz/bindonce
 一些扩展Angular UI组件|https://github.com/angular-ui
-Ember和AngularJS的性能测试|http://voidcanvas.com/emberjs-vs-angularjs-performance-testing
-带你走近AngularJS - 基本功能介绍|http://www.cnblogs.com/powertoolsteam/p/angularjs-introdection.html
-Angularjs开发指南|http://angular.duapp.com/docs/guide
-Angularjs学习|http://www.cnblogs.com/amosli/p/3710648.html
-不要带着jQuery的思维去学习AngularJS|http://www.rainweb.cn/article/angularjs-jquery.html
-angularjs 学习笔记|http://wangjiatao.diandian.com/?tag=angularjs
 angularjs 开发指南|http://www.angularjs.cn/T008
-angularjs 英文资料|https://github.com/jmcunningham/AngularJS-Learning
-angular bootstrap|http://angular-ui.github.io/bootstrap
-angular jq mobile|https://github.com/opitzconsulting/jquery-mobile-angular-adapter
-angular ui|http://mgcrea.github.io/angular-strap
-整合jQuery Mobile+AngularJS经验谈|http://www.tuicool.com/articles/7ZZVr2
-有jQuery背景，该如何用AngularJS编程思想|http://blog.jobbole.com/46589/ 
 AngularJS在线教程|http://each.sinaapp.com/angular
 angular学习笔记|http://www.zouyesheng.com/angular.html
 
 
-移动端API| 地址
+移动端| 地址
 --- | --- 
-99移动端知识集合|https://github.com/jtyjty99999/mobileTech
-移动端前端开发知识库|https://github.com/AlloyTeam/Mars
-移动前端的一些坑和解决方法（外观表现）|http://caibaojian.com/mobile-web-bug.html
-【原】移动web资源整理|http://www.cnblogs.com/PeunZhang/p/3407453.html
-zepto 1.0 中文手册|http://mweb.baidu.com/zeptoapi
-zepto 1.0 中文手册|http://www.html-5.cn/Manual/Zepto
-zepto 1.1.2|http://www.css88.com/doc/zeptojs_api
-zepto 中文注释|http://www.cnblogs.com/sky000/archive/2013/03/29/2988952.html
-jqmobile 手册|http://app-framework-software.intel.com/api.php
-移动浏览器开发集合|https://github.com/maxzhang/maxzhang.github.com/issues
-移动开发大杂烩|https://github.com/hoosin/mobile-web-favorites
-微信webview中的一些问题|http://lin-chao.github.io/2014/11/14/%E5%BE%AE%E4%BF%A1webview%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98
-
-
-框架| 地址
---- | --- 
-特色的HTML框架可以创建精美的iOS应用|http://framework7.taobao.org
 淘宝SUI|http://m.sui.taobao.org
-
+移动开发资源技巧|https://github.com/jtyjty99999/mobileTech
+移动端开发知识库|https://github.com/AlloyTeam/Mars
+些坑和解决方法（外观表现）|http://caibaojian.com/mobile-web-bug.html
+白树移动web资源整理|http://www.cnblogs.com/PeunZhang/p/3407453.html
+zepto 1.1.2|http://www.css88.com/doc/zeptojs_api
 
 avalon| 地址
 --- | --- 
@@ -194,119 +81,32 @@ avalonjs|http://avalonjs.coding.me/
 Avalon新一代UI库： OniUI|http://ued.qunar.com/oniui/index.html
 avalon.oniui-基于avalon的组件库|https://github.com/RubyLouvre/avalon.oniui
 
-D3| 地址
---- | --- 
-d3 Tutorials|https://github.com/mbostock/d3/wiki/Tutorials
-Gallery|https://github.com/mbostock/d3/wiki/Gallery
-lofter|http://datavisual.lofter.com/post/40cf3a_188e535
-iteye|http://alanland.iteye.com/blog/1878595
-ruanyifeng|http://javascript.ruanyifeng.com/library/d3.html
-
-
-兼容性| 地址
---- | --- 
-esma 兼容列表|http://kangax.github.io/compat-table/es6
-W3C CSS验证服务|http://jigsaw.w3.org/css-validator/validator.html.zh-cn
-caniuse|http://caniuse.com/#index 
-csscreator|http://csscreator.com/properties
-microsoft|https://msdn.microsoft.com/zh-cn/library/cc351024(v=vs.85.aspx
-在线测兼容-移动端|http://www.responsinator.com
-emulators|https://www.manymo.com/emulators
-
 
 UI相关| 地址
 --- | --- 
-bootcss|http://v3.bootcss.com
-MetroUICSS|http://www.w3cplus.com/MetroUICSS
 semantic|http://semantic-ui.com
-Buttons|http://alexwolfe.github.io/Buttons
-kitecss|http://hiloki.github.io/kitecss
-pintuer|http://www.pintuer.com
-amazeui|http://amazeui.org
-worldhello|http://www.worldhello.net/gotgithub/index.html
-linuxtoy|http://igit.linuxtoy.org/contents.html
-gitmagic|http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn
-rogerdudler|http://rogerdudler.github.io/git-guide/index.zh.html
+妹子ui|http://amazeui.org
 gitref|http://gitref.justjavac.com
-book|http://git-scm.com/book/zh
-gogojimmy|http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic
-
-
-HTTP| 地址
---- | --- 
-HTTP API 设计指南|http://segmentfault.com/bookmark/1230000002521721
-
-
-其它API| 地址
---- | --- 
-javascript流行库汇总|javascriptoo
-验证api|http://niceue.com/validator/demo/index.php
-underscore 中文手册|http://www.css88.com/doc/underscore
-underscore源码分析|http://www.html-js.com/article/Underscorejs-source-code-analysis-of-underscorejs-source-code-analysis%203031
-underscore源码分析-亚里士朱德的博客|http://yalishizhude.github.io/tags/underscore
-underscrejs en api|http://underscorejs.org
-lodash - underscore的代替品|https://lodash.com
-ext4api|http://extjs-doc-cn.github.io/ext4api
-backbone 中文手册|http://www.csser.com/tools/backbone/backbone.js.html
-qwrap手册|http://dev.qwrap.com/resource/js/_docs/_youa/#/qw/base/loadJs_.htm
-缓动函数|http://easings.net/zh-cn
-svg 中文参考|http://www.w3school.com.cn/svg/svg_reference.asp
-svg mdn参考|https://developer.mozilla.org/en-US/docs/Web/SVG
-svg 导出 canvas|https://github.com/gabelerner/canvg
-svg 导出 png|https://github.com/exupero/saveSvgAsPng
-ai-to-svg|http://www.zamzar.com/convert/ai-to-svg
-localStorage 库|https://github.com/machao/localStorage
-
-
-图表类| 地址
---- | --- 
-Highcharts 中文API|http://www.hcharts.cn/api/index.php
-Highcharts 英文API|http://api.highcharts.com/highcharts
-ECharts 百度的图表软件|http://echarts.baidu.com/ 
+h-ui|http://www.h-ui.net/
+ECharts 百度的图表软件|http://echarts.baidu.com/
 高德地图|http://lbs.amap.com/api
-开源的矢量图脚本框架|http://paperjs.org
-svg 地图|http://jvectormap.com
-
+开源的矢量图脚本框架(挺好玩儿的)|http://paperjs.org
 
 正则| 地址
 --- | --- 
 JS正则表达式元字符|http://segmentfault.com/a/1190000002471140
-正则表达式30分钟入门教程|http://deerchao.net/tutorials/regex/regex.htm
 MDN-正则表达式|https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions
 ruanyifeng - RegExp对象|http://javascript.ruanyifeng.com/stdlib/regexp.html
-小胡子哥 - 进阶正则表达式|http://div.io/topic/764?page=1
-is.js|https://github.com/Cedriking/is.js/blob/master/is.js
-正则在线测试|http://regexper.com
-
-
-其它| 地址
---- | --- 
-Mock.js 是一款模拟数据生成器|http://mockjs.com
 
 
 前端| 地址
 --- | --- 
-通过分析github代码库总结出来的工程师代码书写习惯|http://alloyteam.github.io/CodeGuide
-HTML&CSS编码规范 by @mdo|http://codeguide.bootcss.com
-团队合作的css命名规范-腾讯AlloyTeam前端团队|http://www.alloyteam.com/2011/10/107
-前端编码规范之js - by yuwenhui|http://yuwenhui.github.io
-前端编码规范之js - by 李靖|http://www.cnblogs.com/hustskyking/p/javascript-spec.html
+代码书写习惯分析|http://alloyteam.github.io/CodeGuide
 前端开发规范手册|http://zhibimo.com/read/Ashu/front-end-style-guide
-Airbnb JavaScript 编码规范（简体中文版）|https://github.com/yuche/javascript#table-of-contents
-AMD与CMD规范的区别|http://www.zhihu.com/question/20351507
+Airbnb 编码规范|https://github.com/yuche/javascript#table-of-contents
 AMD与CMD规范的区别|http://www.cnblogs.com/tugenhua0707/p/3507957.html
-KISSY 源码规范|http://docs.kissyui.com/1.4/docs/html/tutorials/style-guide/kissy-source-style.html
-bt编码规范|http://codeguide.bootcss.com
-规范加强版|https://github.com/Suxiaogang/Code_Guide
-前端代码规范 及 最佳实践|http://blog.jobbole.com/79075
-百度前端规范|http://coderlmn.github.io/code-standards
-百度前端规范|http://isobar-idev.github.io/code-standards
 百度前端规范|http://zhuanlan.zhihu.com/fuyun/19884834
-ECMAScript6 编码规范--广发证券前端团队|https://github.com/gf-rd/es6-coding-style
-JavaScript 风格指南/编码规范（Airbnb公司版）|http://blog.jobbole.com/79484
-网易前端开发规范|http://nec.netease.com/standard
-css模块|http://www.75team.com/archives/1049
-前端规范资源列表|https://github.com/ecomfe/spec
+
 
 
 各大公司开源项目| 地址
