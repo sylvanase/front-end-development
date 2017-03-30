@@ -1,3 +1,10 @@
+```javascript
+  var ihubo = {
+    nickName  : "草依山",
+    site : "http://jser.me"
+  }
+```
+
 综合类 | 地址
 --- | --- 
 w3s|http://www.w3school.com.cn
