@@ -1140,3 +1140,313 @@ new Vue({
   }
 })
 ```
+组件之间的通信（非父子关系），使用一个空的 Vue 实例作为中央事件总线：
+```javascript
+var bus = new Vue();
+// 触发组件 A 中的事件
+bus.$emit('id-selected', 1)
+// 在组件 B 创建的钩子中监听事件
+bus.$on('id-selected', function (id) {
+  // ...
+})
+```
+### 4. 使用slot分发内容
+让组件之间可以组合，来混合父组件的内容与子组件自己的模板的过程为内容分发。`<slot>` 元素作为原始内容的插槽。
+内容分发前，先明确内容在哪个作用域里编译，组件作用域：父组件模板的内容在父组件作用域内编译；子组件模板的内容在子组件作用域内编译。
+```html
+<!-- someChildProperty是子组件的属性，在父组件模板内将一个指令绑定到子组件的属性/方法是错误且无效的 -->
+<child-component v-show="someChildProperty"></child-component>
+```
+```javascript
+Vue.component('child-component', {
+  // 正确的绑定方式，有效，是在正确的作用域内
+  template: '<div v-show="someChildProperty">Child</div>',
+  data: function () {
+    return {
+      someChildProperty: true
+    }
+  }
+})
+```
+子组件模板需要包含至少一个 `<slot>` 插口，否则父组件的内容将会被丢弃。当子组件模板只有一个没有属性的 slot 时，父组件整个内容片段将插入到 slot 所在的 DOM 位置，并替换掉 slot 标签本身。
+```html
+<!-- 子组件模板 -->
+<div>
+  <h2>我是子组件的标题</h2>
+  <slot>
+    只有在没有要分发的内容时才会显示。
+  </slot>
+</div>
+
+<!-- 父组件模板 -->
+<div>
+  <h1>我是父组件的标题</h1>
+  <my-component>
+    <p>这是一些初始内容</p>
+    <p>这是更多的初始内容</p>
+  </my-component>
+</div>
+
+<!-- 最后渲染结果 -->
+<div>
+  <h1>我是父组件的标题</h1>
+  <div>
+    <h2>我是子组件的标题</h2>
+    <p>这是一些初始内容</p>
+    <p>这是更多的初始内容</p>
+  </div>
+</div>
+```
+为 `slot` 设定属性name来分发内容，未设定属性名的slot为匿名slot，作为找不到匹配的内容片段的备用插槽，如果没有默认的slot，找不到匹配的内容片段将会被舍弃。
+
+```html
+<!-- 子组件模板 -->
+<div class="container">
+  <header>
+    <slot name="header"></slot>
+  </header>
+  <main>
+    <slot></slot>
+  </main>
+  <footer>
+    <slot name="footer"></slot>
+  </footer>
+</div>
+
+<!-- 父组件模板 -->
+<app-layout>
+  <h1 slot="header">这里可能是一个页面标题</h1>
+  <p>主要内容的一个段落。</p>
+  <p>另一个主要段落。</p>
+  <p slot="footer">这里有一些联系信息</p>
+</app-layout>
+
+<!-- 最后渲染结果 -->
+<div class="container">
+  <header>
+    <h1>这里可能是一个页面标题</h1>
+  </header>
+  <main>
+    <p>主要内容的一个段落。</p>
+    <p>另一个主要段落。</p>
+  </main>
+  <footer>
+    <p>这里有一些联系信息</p>
+  </footer>
+</div>
+```
+
+作用域插槽：用作使用一个（能够传递数据到）可重用模板替换已渲染元素，类似于将 prop 传递给组件。
+
+```html
+<!-- 子组件模板 -->
+<div class="child">
+  <slot text="hello from child"></slot>
+</div>
+
+<!-- 父组件模板 -->
+<div class="parent">
+  <child>
+    <template scope="props">
+      <span>hello from parent</span>
+      <span>{{ props.text }}</span>
+    </template>
+  </child>
+</div>
+
+<!-- 最后渲染结果 -->
+<div class="parent">
+  <div class="child">
+    <span>hello from parent</span>
+    <span>hello from child</span>
+  </div>
+</div>
+```
+作用域插槽常用在列表模板中：
+```html
+<my-awesome-list :items="items">
+  <!-- 作用域插槽也可以是具名的 -->
+  <template slot="item" scope="props">
+    <li class="my-fancy-item">{{ props.text }}</li>
+  </template>
+</my-awesome-list>
+
+<!-- 列表模板 -->
+<ul>
+  <slot name="item"
+    v-for="item in items"
+    :text="item.text">
+    <!-- 这里写入备用内容 -->
+  </slot>
+</ul>
+```
+
+### 5. 动态组件
+使用保留的组件 元素，动态地绑定到它的 is 特性，让多个组件可以使用同一个挂载点，并动态切换：
+```javascript
+var vm = new Vue({
+  el: '#example',
+  data: {
+    currentView: 'home'
+  },
+  components: {
+    home: { /* ... */ },
+    posts: { /* ... */ },
+    archive: { /* ... */ }
+  }
+})
+
+//或直接绑定到组件对象上
+var Home = {
+  template: '<p>Welcome home!</p>'
+}
+var vm = new Vue({
+  el: '#example',
+  data: {
+    currentView: Home
+  }
+})
+```
+```html
+<!-- 未添加 keep-alive -->
+<component v-bind:is="currentView">
+  <!-- 组件在 vm.currentview 变化时改变！ -->
+</component>
+
+<!--添加一个 keep-alive，把切换出去的组件保留在内存中，可以保留它的状态或避免重新渲染-->
+<keep-alive>
+  <component :is="currentView">
+    <!-- 非活动组件将被缓存！ -->
+  </component>
+</keep-alive>
+```
+### 6. 杂项
+#### 编写可复用的组件
+如果想要组件可复用，要为其定义好清晰的公开接口。Vue 组件的 API 来自三部分 - props, events 和 slots：
+
+*   Props 允许外部环境传递数据给组件。
+*   Events 允许组件触发外部环境的副作用
+*   Slots 允许外部环境将额外的内容组合在组件中。
+
+```html
+<my-component
+  :foo="baz"
+  :bar="qux"
+  @event-a="doThis"
+  @event-b="doThat"
+>
+  <img slot="icon" src="...">
+  <p slot="main-text">Hello!</p>
+</my-component>
+```
+#### 子组件索引
+要在 JavaScript 中直接访问子组件，需要为子组件指定索引ID。
+```hmtl
+<div id="parent">
+  <user-profile ref="profile"></user-profile>
+</div>
+```
+```javascript
+var parent = new Vue({ el: '#parent' })
+// 访问子组件
+var child = parent.$refs.profile
+```
+
+当 ref 和 v-for 一起使用时， ref 是一个数组或对象，包含相应的子组件。\$refs 只在组件渲染完成后才填充，并且它是非响应式的。它仅仅作为一个直接访问子组件的应急方案——应当避免在模版或计算属性中使用 \$refs 。
+
+#### 异步组件
+在将应用拆分成多个小模块时，将组件定义为工厂函数，对其进行动态解析，在组件需要渲染时触发函数，缓存结果，用于后续再次渲染
+```javascript
+Vue.component('async-example', function (resolve, reject) {
+  setTimeout(function () {
+    // Pass the component definition to the resolve callback
+    resolve({
+      template: '<div>I am async!</div>'
+    })
+  }, 1000)
+})
+//使用webpack的话，如下：
+Vue.component('async-webpack-example', function (resolve) {
+  // 这个特殊的 require 语法告诉 webpack
+  // 自动将编译后的代码分割成不同的块，
+  // 这些块将通过 Ajax 请求自动下载。
+  require(['./my-async-component'], resolve)
+})
+
+```
+工厂函数接收一个 resolve 回调，在收到从服务器下载的组件定义时调用。也可以调用 reject(reason) 指示加载失败。
+
+#### 组件命名约定
+在 HTML 模版中，使用 kebab-case 形式。
+```html
+<!-- 在HTML模版中始终使用 kebab-case -->
+<kebab-cased-component></kebab-cased-component>
+<camel-cased-component></camel-cased-component>
+<title-cased-component></title-cased-component>
+
+<!-- 在字符串模版中可以用任何你喜欢的方式! -->
+<my-component></my-component>
+<myComponent></myComponent>
+<MyComponent></MyComponent>
+```
+#### 递归组件
+当组件有 name 选项时，组件可以在它的模板内递归的调用自己：
+```javascript
+name: 'unique-name-of-my-component'
+```
+(不太理解)
+#### 组件间循环调用
+```html
+<!-- 在组件tree-folder中调用了tree-folder-contents -->
+<p>
+  <span>{{ folder.name }}</span>
+  <tree-folder-contents :children="folder.children"/>
+</p>
+<!-- 在组件tree-folder-contents中调用了tree-folder -->
+<ul>
+  <li v-for="child in children">
+    <tree-folder v-if="child.children" :folder="child"/>
+    <span v-else>{{ child.name }}</span>
+  </li>
+</ul>
+```
+使用Vue.component声明其为全局组件时，两个组件间相互调用是不会报错的，如果使用的是webpack等模块化管理工具，这样互相调用会报错，此时需要在其中一个组件中添加beforeCreate，来让工具知道“A 虽然需要 B ，但是不需要优先导入 B”。
+```javascript
+beforeCreate: function () {
+  this.$options.components.TreeFolderContents = require('./tree-folder-contents.vue')
+}
+```
+#### 内联模板
+如果子组件有 inline-template 特性，组件将把它的内容当作它的模板，而不是把它当作分发内容。
+```html
+<my-component inline-template>
+  <div>
+    <p>These are compiled as the component's own template.</p>
+    <p>Not parent's transclusion content.</p>
+  </div>
+</my-component>
+```
+#### x-template
+另一种定义模版的方式是在 JavaScript 标签里使用 text/x-template 类型，并且指定一个id。这在有很多模版或者小的应用中有用，否则应该避免使用。
+```html
+<script type="text/x-template" id="hello-world-template">
+  <p>Hello hello hello</p>
+</script>
+```
+```javascript
+Vue.component('hello-world', {
+  template: '#hello-world-template'
+})
+```
+####  v-once
+当组件中包含大量静态内容时，可以考虑使用 v-once 将渲染结果缓存起来。
+```javascript
+Vue.component('terms-of-service', {
+  template: '\
+    <div v-once>\
+      <h1>Terms of Service</h1>\
+      ... a lot of static content ...\
+    </div>\
+  '
+})
+```
