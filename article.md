@@ -1,4 +1,4 @@
-# 优秀好文
+# 优质好文
 ## vim操作
 > * 在默认的"指令模式"下按 i 进入编辑模式
 > * 在非指令模式下按 ESC 返回指令模式
@@ -16,8 +16,16 @@
 
 ---
 
-##js
+## js
 
 ---
+
+## webpack
+- [webpack 入坑](http://blog.guowenfh.com/2016/03/24/vue-webpack-01-base/)
+
+## vue
+- [vue实战](http://jspang.com/2017/05/22/vuedemo/)
+
+
 
 
