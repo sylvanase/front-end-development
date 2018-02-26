@@ -20,6 +20,7 @@ freecodecamp|https://freecodecamp.cn/home
 Front-End-Develop-Guide 前端开发指南|https://github.com/Front-End-Developers-Hunan/Front-End-Develop-Guide
 开源中国在线API文档合集|http://tool.oschina.net/apidocs
 devdocs 英文综合API|http://devdocs.io 
+segmentfault开发社区|https://segmentfault.com
 
 前端blog | 地址
 --- | --- 
