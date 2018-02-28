@@ -31,7 +31,6 @@
 ## vue
 - [axios](https://juejin.im/entry/587599388d6d810058a7a41a)
 - [基于Vue.js 2.x系列 + Element UI 的后台管理系统解决方案](https://www.w3ctech.com/topic/1964)
-- []
 ---
 
 ## react
